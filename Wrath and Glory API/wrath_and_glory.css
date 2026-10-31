@@ -804,6 +804,13 @@ th,
     background-size:450px 54px, auto;
     padding-left: 7px;
 }
+/* White fields (Roll20 default is WhiteSmoke) so they stand out on the lighter parchment */
+.charsheet input[type="text"],
+.charsheet input[type="number"],
+.charsheet textarea,
+.charsheet select {
+    background-color: #fff;
+}
 
 /* ================ Utility classes (replace inline styles) ================ */
 .sheet-width-W98-ml4 { width: 98%; margin-left: 4px; }
