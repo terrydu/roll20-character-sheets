@@ -21,6 +21,11 @@ Many thanks to the following individuals who reported defects and provided impro
 3. Fenrir: new layout was his work; full contributions in the API.
 4. Thomas: whose help in identifying the underlying issue with a bug fix and willingness to test was a great aid!
 
+### Image Credits
+Both images are in the `images` folder and are released under CC0 1.0 Universal (Public Domain Dedication).
+- `pergament-2-background.jpg`: "Pergament.2.jpg" from Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Pergament.2.jpg (CC0 1.0).
+- `wrath-and-glory-banner.png`: "Wrath & Glory" banner created by Terry Duchastel and released under CC0 1.0.
+
 ### Planned Releases
 3.2 Maintenance - refactor code to align with Roll20 standards.
 
