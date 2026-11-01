@@ -22,10 +22,12 @@ Many thanks to the following individuals who reported defects and provided impro
 4. Thomas: whose help in identifying the underlying issue with a bug fix and willingness to test was a great aid!
 
 ### Image Credits
-All images are in the `images` folder and are released under CC0 1.0 Universal (Public Domain Dedication).
+All images are in the `images` folder. Unless noted otherwise they are released under CC0 1.0 Universal (Public Domain Dedication).
 - `pergament-2-seamless-background.jpg`: "Pergament.2.jpg" from Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Pergament.2.jpg (CC0 1.0), edited to tile seamlessly.
 - `wrath-and-glory-banner.png`: "Wrath & Glory" banner created by Terry Duchastel and released under CC0 1.0.
 - `info-unchecked-icon-16px.png` and `minus-checked-icon-16px.png`: checkbox icons created by Terry Duchastel and released under CC0 1.0.
+- `info-icon.svg`: based on "Minimalist info Icon.svg" by Itsquietuptown, https://commons.wikimedia.org/wiki/File:Minimalist_info_Icon.svg, licensed CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0). Modified: set to 16x16 and the letter redrawn as paths. This file remains under CC BY-SA 4.0.
+- `minus-in-circle-icon.svg`: based on "Minus in circle.svg" by Alex Mak, https://commons.wikimedia.org/wiki/File:Minus_in_circle.svg (public domain). Modified: set to 16x16.
 
 ### Planned Releases
 3.2 Maintenance - refactor code to align with Roll20 standards.
