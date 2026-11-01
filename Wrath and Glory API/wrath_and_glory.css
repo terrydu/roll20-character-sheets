@@ -798,10 +798,10 @@ th,
 .sheet-tooltip-override {bottom: 100%;}
 .charsheet .sheet-wrapper {
     /* Banner sits where the old background's logo was (centred on x=632, y=96), over the tiled parchment */
-    background-image:url("https://github.com/terrydu/roll20-character-sheets/blob/wrath-glory-layout/Wrath%20and%20Glory%20API/images/wrath-and-glory-banner.png?raw=true"), url("https://github.com/terrydu/roll20-character-sheets/blob/wrath-glory-layout/Wrath%20and%20Glory%20API/images/pergament-2-seamless-background.jpg?raw=true");
+    background-image:url("https://github.com/terrydu/roll20-character-sheets/blob/wrath-glory-layout/Wrath%20and%20Glory%20API/images/wrath-and-glory-banner-blue.png?raw=true"), url("https://github.com/terrydu/roll20-character-sheets/blob/wrath-glory-layout/Wrath%20and%20Glory%20API/images/pergament-2-seamless-background.jpg?raw=true");
     background-repeat:no-repeat, repeat;
-    background-position:407px 69px, 0 0;
-    background-size:450px 54px, auto;
+    background-position:418px 69px, 0 0;
+    background-size:428px 54px, auto;
     padding-left: 7px;
 }
 /* White fields (Roll20 default is WhiteSmoke) so they stand out on the lighter parchment */
