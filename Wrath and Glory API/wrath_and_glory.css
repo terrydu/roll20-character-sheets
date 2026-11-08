@@ -497,8 +497,8 @@ input, select, textarea {
 .sheet-grid-c12 { grid-template-columns: 40fr; }
 .sheet-grid-c13 { grid-template-columns: 100fr; }
 .sheet-grid-c14 { grid-template-columns: 40fr 60fr; }
-.sheet-grid-c15 { grid-template-columns: 15fr 3fr 3fr 3fr 5fr 4fr 5fr 5fr 4fr 4fr 5fr 8fr 4fr 5fr 5fr 4fr 5fr 5fr 4fr; }
-.sheet-grid-c16 { grid-template-columns: 18fr 3fr 3fr 5fr 4fr 5fr 5fr 4fr 4fr 5fr 8fr 4fr 5fr 5fr 4fr 5fr 5fr 4fr; }
+.sheet-grid-c15 { grid-template-columns: minmax(0, 15fr) minmax(0, 3fr) minmax(0, 3fr) minmax(0, 3fr) minmax(0, 5fr) minmax(0, 4fr) minmax(0, 5fr) minmax(0, 5fr) minmax(0, 4fr) minmax(0, 4fr) minmax(0, 5fr) minmax(0, 8fr) minmax(0, 4fr) minmax(0, 5fr) minmax(0, 5fr) minmax(0, 4fr) minmax(0, 5fr) minmax(0, 5fr) minmax(0, 4fr); }
+.sheet-grid-c16 { grid-template-columns: minmax(0, 18fr) minmax(0, 3fr) minmax(0, 3fr) minmax(0, 5fr) minmax(0, 4fr) minmax(0, 5fr) minmax(0, 5fr) minmax(0, 4fr) minmax(0, 4fr) minmax(0, 5fr) minmax(0, 8fr) minmax(0, 4fr) minmax(0, 5fr) minmax(0, 5fr) minmax(0, 4fr) minmax(0, 5fr) minmax(0, 5fr) minmax(0, 4fr); }
 .sheet-grid-c17 { grid-template-columns: 3fr 17fr 4fr 3fr 8fr 5fr 8fr 5fr 7fr 8fr 5fr 7fr; }
 .sheet-grid-c18 { grid-template-columns: 5fr 3fr 6fr 5fr 3fr 2fr 5fr 4fr 6fr 4fr 4fr 4fr 5fr 3fr 3fr 4fr 5fr 5fr 5fr 5fr 4fr 5fr 5fr; }
 .sheet-grid-c19 { grid-template-columns: 5fr 35fr 3fr 7fr 5fr 5fr 7fr 5fr 15fr 3fr 3fr 5fr; }
