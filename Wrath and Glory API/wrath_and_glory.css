@@ -508,6 +508,10 @@ input, select, textarea {
 .sheet-grid-c16 input[name="attr_wpnAttMod"],
 .sheet-grid-c16 input[name="attr_wpnDmgBD"],
 .sheet-grid-c16 input[name="attr_wpnDmgMod"] { width: 2.3em; }
+/* the number spinner reserves about 15px inside the input even when hidden, which leaves no room for the digits at these widths */
+.sheet-grid-c16 input[type="number"] { -moz-appearance: textfield; }
+.sheet-grid-c16 input[type="number"]::-webkit-outer-spin-button,
+.sheet-grid-c16 input[type="number"]::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
 .sheet-grid-c16 input[name="attr_wpnBaseDR"] { width: 2.8em; }
 .sheet-grid-c16 input[name="attr_wpnRange"] { width: 4em; }
 .sheet-grid-c17 { grid-template-columns: 3fr 17fr 4fr 3fr 8fr 5fr 8fr 5fr 7fr 8fr 5fr 7fr; }
