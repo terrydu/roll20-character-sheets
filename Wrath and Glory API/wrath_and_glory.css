@@ -832,10 +832,10 @@ input.sheet-roll-useDice:checked ~ div .sheet-grid button.sheet-diebutton-api { 
 .sheet-tooltip-override {bottom: 100%;}
 .charsheet .sheet-wrapper {
     /* Banner sits where the old background's logo was (centred on x=632, y=96), over the tiled parchment */
-    background-image:url("https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/Wrath%20and%20Glory%20API/images/wrath-and-glory-banner-blue.png"), url("https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/Wrath%20and%20Glory%20API/images/pergament-2-seamless-background.jpg");
-    background-repeat:no-repeat, repeat;
+    background-image:url("https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/Wrath%20and%20Glory%20API/images/wrath-and-glory-banner-blue.png"), url("https://raw.githubusercontent.com/terrydu/roll20-character-sheets/wrath-glory-mold-bg-test/Wrath%20and%20Glory%20API/images/mold-paper-background.jpg");
+    background-repeat:no-repeat, no-repeat;
     background-position:418px 69px, 0 0;
-    background-size:428px 54px, auto;
+    background-size:428px 54px, cover;
     padding-left: 7px;
     box-sizing: border-box;                /* keep the 7px padding inside the 100% width so it doesn't cause a horizontal scrollbar */
 }
